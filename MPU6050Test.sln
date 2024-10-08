@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPU6050Test", "MPU6050Test.csproj", "{6A609356-0A62-4C66-AAEC-318F3D842621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPU6050Test", "MPU6050Test.csproj", "{6A609356-0A62-4C66-AAEC-318F3D842621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPUTest6050.Service.Interface", "..\MPUTest6050.Service.Interface\MPUTest6050.Service.Interface.csproj", "{D7B0DE69-C0C0-4383-8232-D46E14DEA85C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPU6050Test.Service", "MPU6050Test.Service\MPU6050Test.Service.csproj", "{C41E92E0-173B-4A93-A313-9000FDD378DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPU6050Test.Service", "..\MPU6050Test.Service\MPU6050Test.Service.csproj", "{44690612-E1DE-488C-967F-A53A7D8EB3B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPUTest6050.Service.Interface", "MPUTest6050.Service.Interface\MPUTest6050.Service.Interface.csproj", "{B2E632EE-B69D-4AC5-907D-F6E2CEF2232F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{6A609356-0A62-4C66-AAEC-318F3D842621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A609356-0A62-4C66-AAEC-318F3D842621}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A609356-0A62-4C66-AAEC-318F3D842621}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7B0DE69-C0C0-4383-8232-D46E14DEA85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7B0DE69-C0C0-4383-8232-D46E14DEA85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7B0DE69-C0C0-4383-8232-D46E14DEA85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7B0DE69-C0C0-4383-8232-D46E14DEA85C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44690612-E1DE-488C-967F-A53A7D8EB3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44690612-E1DE-488C-967F-A53A7D8EB3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44690612-E1DE-488C-967F-A53A7D8EB3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44690612-E1DE-488C-967F-A53A7D8EB3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41E92E0-173B-4A93-A313-9000FDD378DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41E92E0-173B-4A93-A313-9000FDD378DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41E92E0-173B-4A93-A313-9000FDD378DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41E92E0-173B-4A93-A313-9000FDD378DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E632EE-B69D-4AC5-907D-F6E2CEF2232F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E632EE-B69D-4AC5-907D-F6E2CEF2232F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E632EE-B69D-4AC5-907D-F6E2CEF2232F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E632EE-B69D-4AC5-907D-F6E2CEF2232F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
